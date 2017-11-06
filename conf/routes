@@ -1,0 +1,3 @@
+GET     /                           controllers.HomeController.index
+    
+GET    /v1/users/:id                 v1.user.UserController.show(id)

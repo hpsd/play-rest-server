@@ -1,0 +1,34 @@
+@()
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Play REST API</title>
+  </head>
+
+  <body>
+    <h1>Play REST API</h1>
+
+    <p>
+      It serves up a <i>dummy</i> User   
+    </p>
+
+    <h4>
+      To retrieve a User supply any id value in the link below and a dummy user will be created
+     </h4>
+
+<pre>
+    <code>http GET localhost:9000/v1/users/{id}</code>
+</pre>
+
+
+    <h4>
+      To simulate 404 do :
+    </h4>
+<pre>
+    <code>http GET localhost:9000/v1/users/99</code>
+</pre>
+
+  </body>
+</html>
