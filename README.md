@@ -1,22 +1,22 @@
-#Play REST API
+# Play REST API
 
     
 It serves up a dummy User   
     
 
     
-##To retrieve a User supply any id value in the link below and a dummy user will be retrieved
+## To retrieve a User supply any id value in the link below and a dummy user will be retrieved
     
 
 GET http://localhost:9000/v1/users/{id}  
 
 
     
-##To simulate 404 do :
+## To simulate 404 do :
     
 GET http://localhost:9000/v1/users/99  
 
-##Sample JSON 
+## Sample JSON 
 
 GET http://localhost:9000/v1/users/1    
 
